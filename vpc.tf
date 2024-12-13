@@ -1,7 +1,7 @@
 module "vpc" {
   source = "terraform-aws-modules/vpc/aws"
 
-  name = "my-custom-vpc"
+  name = "my-custom-vpc-alexis"
   cidr = "10.0.0.0/16"
 
   azs             = ["us-east-1a"]
